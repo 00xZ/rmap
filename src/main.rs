@@ -26,8 +26,8 @@ fn scan(param_target:String) {
 fn main() {
 	let mut count = 0u32;
 	loop {
-		count += 1;
-		let a: i64 = rand::thread_rng().gen_range(0..255);
+	count += 1;
+	let a: i64 = rand::thread_rng().gen_range(0..255);
         let b: i64 = rand::thread_rng().gen_range(0..255);
         let c: i64 = rand::thread_rng().gen_range(0..255);
         let d: i64 = rand::thread_rng().gen_range(0..255);
